@@ -929,10 +929,9 @@ server <- function(input, output, session) {
           "Running <b>Number of Simulated Experiments &gt; 1000</b> on the web server ",
           "may cause heavy load and slow the application for all users.<br><br>",
           "Please <b>download and run the app locally</b>:<br>",
-          # TODO: replace with the repository URL before release
-          "<a href='https://github.com/' target='_blank' style='font-weight:600;'>",
-          "github.com/</a><br><br>",
-          "Once downloaded, launch in <b>local mode</b>:<br>",
+          "<a href='https://github.com/ydu-sci/Binding_Curve_Viewer' target='_blank' style='font-weight:600;'>",
+          "github.com/ydu-sci/Binding_Curve_Viewer</a><br>(app file: <code>src/shiny-apps/kin-sim/app.R</code>)<br><br>",
+          "Once downloaded, launch it from that folder in <b>local mode</b>:<br>",
           "<code style='background:#f1f1f1; padding:3px 6px; border-radius:3px;'>",
           "BINDING_APP_LOCAL=true Rscript -e \"shiny::runApp('app.R')\"</code><br>",
           "<small style='color:#555;'>Or from R console: ",
