@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "Binding Curve Viewer"
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/ydu-sci/Binding_Curve_Viewer"
+url: "https://www.eplatton.net/binding-curve-viewer/"
+authors:
+  - family-names: Du
+    given-names: Yu
+    orcid: "https://orcid.org/0000-0002-4114-396X"
+preferred-citation:
+  type: article
+  title: "Binding Curve Viewer: Visualizing the Equilibrium and Kinetics of Protein–Ligand Binding and Competitive Binding"
+  authors:
+    - family-names: Du
+      given-names: Yu
+      orcid: "https://orcid.org/0000-0002-4114-396X"
+  journal: "Journal of Chemical Information and Modeling"
+  year: 2024
+  volume: 64
+  issue: 10
+  start: 4180
+  end: 4192
+  doi: "10.1021/acs.jcim.4c00130"

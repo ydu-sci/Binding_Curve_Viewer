@@ -1,0 +1,15 @@
+{% extends "!layout.html" %}
+{% block footer %}
+<div class="footer">
+  &copy; Copyright 2026,
+  <a id="cy-effective-orcid-url"
+     class="underline"
+     href="https://orcid.org/0000-0002-4114-396X"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="text-decoration: none">
+    <img src="{{ pathto('_static/images/ORCIDiD_icon16x16.webp', 1) }}"
+         style="width: 0.8em; height: 0.8em"
+         alt="ORCID iD icon"/>Yu Du</a>.
+</div>
+{% endblock %}

@@ -137,7 +137,7 @@ Thus,
 
 .. math:: :label: ap_1.4
 
-    {(\left[\mathrm{PL}\right]_\mathrm{eq})}^2-\left(\left[\mathrm{P}\right]_0+\left[\mathrm{L}\right]_0-K_\mathrm{d}\right)\left[\mathrm{PL}\right]_\mathrm{eq}+\left[\mathrm{P}\right]_0\left[\mathrm{L}\right]_0=0
+    {(\left[\mathrm{PL}\right]_\mathrm{eq})}^2-\left(\left[\mathrm{P}\right]_0+\left[\mathrm{L}\right]_0+K_\mathrm{d}\right)\left[\mathrm{PL}\right]_\mathrm{eq}+\left[\mathrm{P}\right]_0\left[\mathrm{L}\right]_0=0
 
 
 This equation is the same as the right-hand side of equation 2, its coefficients and discriminant are

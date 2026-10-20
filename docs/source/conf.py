@@ -12,18 +12,19 @@
 #
 import os
 import sys
+import guzzle_sphinx_theme
 sys.path.insert(0, os.path.abspath('../..'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'binding_curve_viewer'
-copyright = '2023, Yu Du'
+copyright = '2026, Yu Du'
 author = 'Yu Du'
 html_title = "Binding Curve Viewer's Documentation"
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '2.0.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,6 +40,7 @@ extensions = [
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+html_static_path = ['_static']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -50,8 +52,8 @@ exclude_patterns = []
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-import guzzle_sphinx_theme
-html_static_path = ['_static']
+
+
 html_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'
 html_theme_path = guzzle_sphinx_theme.html_theme_path()
 html_theme = 'guzzle_sphinx_theme'
@@ -68,3 +70,15 @@ html_theme_options = {
 }
 
 latex_elements = {'pointsize': '10pt'}
+html_show_sphinx = False
+html_show_copyright = False
+html_css_files = [
+    'custom.css',
+]
+
+# Replace the default MathJax CDN with jsDelivr (accessible in China)
+# or use BootCDN (Chinese CDN mirror, fastest in China)
+mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+# Alternative: Chinese BootCDN mirror
+# mathjax_path = "https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"
