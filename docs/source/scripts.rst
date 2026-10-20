@@ -2,7 +2,7 @@
 Scripts
 =======
 
-All the below scripts can be found in `GitHub Page <https://github.com/ydu-sci/Binding_Curve_Viewer/tree/main/scripts>`_.
+All the below scripts can be found in `GitHub Page <https://github.com/ydu-sci/Binding_Curve_Viewer/tree/main/src/scripts>`_.
 
 association_curve_fitting.py
 ============================

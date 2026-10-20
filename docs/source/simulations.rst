@@ -96,7 +96,7 @@ Common Features of the Monte Carlo Applications
 Determination of Dissociation Constant (*K*\ :sub:`d`)
 ------------------------------------------------------
 
-**File:** ``shiny-apps/kd-sim/app.R``
+**File:** ``src/shiny-apps/kd-sim/app.R``
 
 This application simulates saturation binding experiments. Noisy [PL] values are
 generated at a series of ligand concentrations, and each simulated experiment is
@@ -132,7 +132,7 @@ series.
 Kinetics of Association and Dissociation
 ----------------------------------------
 
-**File:** ``shiny-apps/kin-sim/app.R``
+**File:** ``src/shiny-apps/kin-sim/app.R``
 
 This application simulates association and dissociation time courses to estimate
 the dissociation rate constant *k*\ :sub:`off` and the association rate constant
@@ -178,7 +178,7 @@ replicates per time point (1–5, default 1), [PL] noise SD as a fraction of
 Competitive Binding — Inhibition Curve
 --------------------------------------
 
-**File:** ``shiny-apps/comp-sim/app.R``
+**File:** ``src/shiny-apps/comp-sim/app.R``
 
 This application simulates competitive binding experiments in which an inhibitor
 displaces a ligand from the protein. Equilibrium [PL] values at a series of
@@ -217,7 +217,7 @@ fraction of [P]\ :sub:`0`, random seed, and the inhibitor concentration series.
 Time Dependency of Dissociation Constant
 ----------------------------------------
 
-**File:** ``shiny-apps/time-sim/app.R``
+**File:** ``src/shiny-apps/time-sim/app.R``
 
 This application shows how the *K*\ :sub:`d` obtained from a saturation binding
 experiment depends on the incubation time before measurement. It was inspired by

@@ -39,12 +39,12 @@ distributions of the fitted parameters. The fourth computes, without
 noise, how a saturation experiment read before equilibrium overestimates
 :math:`K_\mathrm{d}`. For details, see :doc:`simulations`.
 
-- **Determination of Dissociation Constant** (``shiny-apps/kd-sim/app.R``):
+- **Determination of Dissociation Constant** (``src/shiny-apps/kd-sim/app.R``):
   Simulates saturation binding experiments and fits :math:`K_\mathrm{d}`
   with the exact quadratic binding equation (Formula 1) and with the
   hyperbolic approximation (Formula 2), which neglects ligand depletion.
 
-- **Kinetics of Association and Dissociation** (``shiny-apps/kin-sim/app.R``):
+- **Kinetics of Association and Dissociation** (``src/shiny-apps/kin-sim/app.R``):
   Simulates association and dissociation time courses at several ligand
   concentrations, estimates :math:`k_\mathrm{off}` from the dissociation
   data and :math:`k_\mathrm{on}` from the association data with the exact
@@ -52,14 +52,14 @@ noise, how a saturation experiment read before equilibrium overestimates
   and reports the kinetic
   :math:`K_\mathrm{d} = k_\mathrm{off}/k_\mathrm{on}` for both.
 
-- **Competitive Binding — Inhibition Curve** (``shiny-apps/comp-sim/app.R``):
+- **Competitive Binding — Inhibition Curve** (``src/shiny-apps/comp-sim/app.R``):
   Simulates inhibition curves, fits the apparent IC50 with a
   four-parameter logistic model, converts it to :math:`K_\mathrm{i}`
   with the Cheng–Prusoff equation and with Wang's group equation, and
   also fits :math:`K_\mathrm{i}` directly with Wang's exact competitive
   binding equation.
 
-- **Time Dependency of Dissociation Constant** (``shiny-apps/time-sim/app.R``):
+- **Time Dependency of Dissociation Constant** (``src/shiny-apps/time-sim/app.R``):
   Computes the saturation curves reached after two incubation times with
   the exact second-order kinetic solution, fits them with the equilibrium
   equation to give the apparent :math:`K_\mathrm{d}`, and reports the
